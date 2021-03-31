@@ -1,0 +1,8 @@
+# SP adapter configuration for the SP Sample
+basePfUrl=https://${PINGFEDERATE_RUNTIME_URL_PORT}
+username=spUser
+passphrase=spPassword
+adapterId=spadapter
+outgoingAttributeFormat=JSON
+targetURL=https://${PINGFEDERATE_RUNTIME_URL_PORT}/AgentlessSPSample/app
+partnerEntityId=PF-DEMO
