@@ -18,7 +18,7 @@
   # default_field_separator = "."
 
   # Add agents URLs to query
-  urls = ["http://localhost:9031/jolokia"]
+  urls = ["http://${PINGFEDERATE_RUNTIME_URL_PORT}/jolokia"]
   # username = ""
   # password = ""
   response_timeout = "3s"
