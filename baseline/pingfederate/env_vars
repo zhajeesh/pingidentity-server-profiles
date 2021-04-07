@@ -13,7 +13,7 @@
 #   export NAME=${NAME:-OTHER_VAR}       # Sets ot value of OTHER_VAR variable
 # 
 
-export PF_LOG_LEVEL=${PF_LOG_LEVEL:=INFO}
+export PF_LOG_LEVEL=${PF_LOG_LEVEL:=DEBUG}
 
 ## Hostnames used in this profile and to be aware of
 export PF_ADMIN_PUBLIC_HOSTNAME=${PF_ADMIN_PUBLIC_HOSTNAME:=localhost}
